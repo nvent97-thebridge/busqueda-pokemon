@@ -53,6 +53,6 @@ const buscarPokemon = (event) => {
   mostrarPokemons(pokemonsFiltrados);
 };
 
-inputBusqueda.addEventListener("keyup", buscarPokemon);
+inputBusqueda.addEventListener("input", buscarPokemon);
 
 mostrarPokemons(pokemons);
